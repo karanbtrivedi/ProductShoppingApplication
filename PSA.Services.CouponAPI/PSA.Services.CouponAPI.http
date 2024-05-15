@@ -1,0 +1,6 @@
+@PSA.Services.CouponAPI_HostAddress = http://localhost:5150
+
+GET {{PSA.Services.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

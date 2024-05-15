@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PSA.Services.CouponAPI/bin/Debug/net8.0
+/PSA.Services.CouponAPI/obj
+/PSA.Web/bin/Debug/net8.0
+/PSA.Web/obj

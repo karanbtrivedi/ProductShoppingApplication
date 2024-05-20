@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PSA.Services.CouponAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/CouponAPI")]
     [ApiController]
     public class CouponAPIController : ControllerBase
     {
@@ -135,6 +135,7 @@ namespace PSA.Services.CouponAPI.Controllers
         }
 
         [HttpDelete]
+        [Route("{id:int}")]
         //[Authorize(Roles = "ADMIN")]
         public ResponseDto Delete(int id)
         {

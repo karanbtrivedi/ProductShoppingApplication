@@ -1,0 +1,6 @@
+@PSA.Services.AuthAPI_HostAddress = http://localhost:5201
+
+GET {{PSA.Services.AuthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
